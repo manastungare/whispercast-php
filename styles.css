@@ -1,0 +1,63 @@
+/*
+    Whispercast : Internet Radio for Yourself
+    Creates a playlist on-the-fly for iTunes/WinAmp in M3U format.
+    Copyright (c) 2006 Manas Tungare
+
+    @author      Manas Tungare (manas@tungare.name)
+    @copyright   Manas Tungare, 2006.
+    @version     1.0
+    @license     http://www.gnu.org/copyleft/gpl.html
+*/
+
+* {
+  font-family: Verdana, Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+
+body, p {
+  font-size: 12px;
+}
+
+address {
+  margin-top: 24px;
+}
+
+div.M3U-Link {
+  text-align: right;
+}
+
+div.M3U-Link a {
+  padding: 6px;
+  margin: 12px;
+  border: 1px solid silver;
+  text-decoration: none;
+  background-color: #efefef;
+}
+
+div.M3U-Link a:hover {
+  color: red;
+  background-color: #cdcdcd;
+}
+
+.Library {
+  border: 1px solid silver;
+  padding: 12px;
+}
+
+.Library img {
+  vertical-align: middle;
+  border: 0px;
+}
+
+.Library a {
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.Library a:hover {
+  color: navy;
+  background-color: #cdcdcd;
+}
